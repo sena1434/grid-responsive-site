@@ -16,6 +16,12 @@ p {
   padding: 1em 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 #showcase {
   min-height: 450px;
   color: #fff;
@@ -34,14 +40,36 @@ p {
   opacity: 0.4;
 }
 
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
 #showcase .content-wrap,
 #section-a .content-wrap {
   padding: 0 1.5em;
 }
 
-#showcase h1 {
-  padding-top: 100px;
-  padding-bottom: 0;
+#section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+#section-b {
+  padding: 2em 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
 }
 
 .btn {
@@ -57,4 +85,8 @@ p {
 .btn:hover {
   color: #333;
   background: #fff;
+}
+
+.card-content {
+  padding: 1.5em;
 }
